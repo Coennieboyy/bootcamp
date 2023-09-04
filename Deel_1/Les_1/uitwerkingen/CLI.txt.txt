@@ -1,9 +1,0 @@
-C:\school\code>mkdir kladblaadjes
-
-C:\school\code>mkdir assesments
-
-C:\school\code>mkdir leren programeren
-
-C:\school\code>mkdir rommel
-
-C:\school\code>rmdir rommel
