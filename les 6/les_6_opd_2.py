@@ -9,4 +9,4 @@ elif (a < b):
   print("Variabele b is het grootst want" , b , "is groter dan" , a , )
 
 else:
-  print("Variabele a en b zijn gelijk.")
+  print("Variabele a en b zijn gelijk.") 
