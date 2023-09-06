@@ -1,12 +1,9 @@
 i = 12
-end = 625
-min = 1
+getal = 625
+aantal_keer = 0
 
+while getal >= i:
+     getal -= i
+     aantal_keer += 1
 
-
-while end >= i:
-    i += 12
-    min += 1
-
-    if i == 625:
-        float(print(f"past {min} keer in 625"))
+print("12 past", aantal_keer, "keer in 625, en er blijft", getal, "over.")
