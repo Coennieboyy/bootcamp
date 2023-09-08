@@ -19,7 +19,7 @@ else:
 
 favoriteColor = input('En wat is je favoriete kleur? ') 
 trueOrFalse = str( random.randint (0, 1))
-if True == 1:
+if trueOrFalse == 1:
   print('Ik vind dat ook een mooie kleur!')
-elif not False == 0:
+elif trueOrFalse == 0:
   print(f'TBH, ik hou niet zo van {favoriteColor}...') #.format(favoriteColor))

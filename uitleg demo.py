@@ -15,7 +15,7 @@
 antwoord1 = input("quit")  #ja j
 antwoord2 = str(input("getal")) #meer dan 5
 
-if antwoord1 == "ja" or antwoord1 == "J" and antwoord2 > "5":
+if (antwoord1 == "ja" or antwoord1 == "J") and antwoord2 > "5":
     print("ok")
 else:
     print("nok")
