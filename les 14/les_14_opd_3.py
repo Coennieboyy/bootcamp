@@ -3,3 +3,4 @@ fruitlijst.remove(input("noem een fruitsoort "))
 
 print(fruitlijst)
 
+    
