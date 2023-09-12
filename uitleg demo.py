@@ -29,10 +29,4 @@
 # print(namen)
 
 
-def optellen(getal1:int, getal2:int):
-    return getal1+getal2
-
-
-antwoord = optellen(5, 6)
-print(antwoord)
-
+150 * 40
