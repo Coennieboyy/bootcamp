@@ -12,10 +12,27 @@
 # else:
 #     print("not ok")
 
-antwoord1 = input("quit")  #ja j
-antwoord2 = str(input("getal")) #meer dan 5
+#antwoord1 = input("quit")  #ja j
+#antwoord2 = str(input("getal")) #meer dan 5
 
-if (antwoord1 == "ja" or antwoord1 == "J") and antwoord2 > "5":
-    print("ok")
-else:
-    print("nok")
+#if (antwoord1 == "ja" or antwoord1 == "J") and antwoord2 > "5":
+#    print("ok")
+#else:
+#    print("nok")
+
+# namen =[]
+
+# for i in range(1,6):
+#     naam = input("voer een naam in ")
+#     namen.append(naam)
+
+# print(namen)
+
+
+def optellen(getal1:int, getal2:int):
+    return getal1+getal2
+
+
+antwoord = optellen(5, 6)
+print(antwoord)
+
