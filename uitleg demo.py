@@ -27,6 +27,3 @@
 #     namen.append(naam)
 
 # print(namen)
-
-
- 
