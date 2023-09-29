@@ -24,3 +24,16 @@ print(f"a = {a}, b = {b}") # Moet "a = 10 b = 5" printen
 leeftijd = int(input("Hoe oud ben je? "))
 print(f"Dan duurt het nog ongeveer {67 - leeftijd} jaar voordat je met pensioen mag!")
 # Is 18 ingevuld? Dan zie je op de terminal: Dan duurt het nog ongeveer 49 jaar voordat je met pensioen mag!
+
+#odpracht 5
+# Schrijf een functie die 3 getallen bij elkaar optelt en zorg ervoor
+# dat de uitkomst ervan wordt getoond in de print
+def rekensom(som):
+    som = getal1 + getal2 + getal3
+    
+
+getal1 = 200
+getal2 = 5
+getal3 = 12
+antwoord = rekensom() # of de naam van je eigen functie.
+print(f"De som van {getal1} + {getal2} + {getal3} = {antwoord}")
