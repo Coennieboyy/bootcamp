@@ -99,10 +99,10 @@ while getal_invullen:
 #Opdracht 10:
 # repareer de volgende code:
 MAX = 20
-getal = int(input("Voer een getal in"))
+getal = int(input("Voer een getal in "))
 if getal > MAX:
-   input(f"Het getal is groter dan [MAX]")
+   input(f"Het getal is groter dan {MAX}")
 elif getal < MAX:
-  input(f"Het getal is kleiner dan [MAX]")
+  input(f"Het getal is kleiner dan {MAX}")
 else:
-   input(f"Het getal is gelijk aan (MAX)")
+   input(f"Het getal is gelijk aan {MAX}")
