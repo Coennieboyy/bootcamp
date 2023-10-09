@@ -11,7 +11,7 @@ kansen = 3
 Jalist = ["ja", "j", "y", "yes"]
 rondes = 1
 fouten = 0
-
+    
 while getal_invullen:
     try:
         raadgetal = int(input("raad een getal tussen 1 en 5 "))
